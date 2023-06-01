@@ -1,0 +1,97 @@
+//COLORS
+
+$backgroundBlue: #0074bd;
+$accentBlue: #005588;
+$mainFont: 'Heebo', sans-serif;
+$textFont: 'Heebo', sans-serif;
+$boxShadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+// weight 300 - 400 - 500
+
+html {
+    box-sizing: border-box;
+    font-size: 125%;
+}
+
+
+img {
+    width: 200px;
+}
+
+.wrapper {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.blueBar {
+    background-color: $backgroundBlue;
+    height: 45px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+p {
+    font-family: $textFont;
+}
+
+h2 {
+    font-family: $textFont;
+    font-weight: 300;
+    font-size: 1.4rem;
+}
+
+h3 {
+    font-family: $textFont;
+}
+
+h4 {
+    font-family: $textFont;
+}
+
+a {
+    font-family: $textFont;
+    text-decoration: none;
+}
+
+li {
+    font-family: $textFont;
+}
+
+.blueify {
+    color: $backgroundBlue;
+}
+
+.originalDesign {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 60px;
+    right: 0;
+    background-color: $backgroundBlue;
+    border-radius: 3px;
+    height: 45px;
+    width: 240px;
+    color: white;
+
+    &:hover {
+        background-color: white;
+        border: 1px solid $backgroundBlue;
+        border-radius: 3px;
+        color: #0074bd;
+        opacity: 90%;
+
+        span {
+            color: $backgroundBlue;
+        }
+    }
+
+    span {
+        color: white;
+        margin-left: 10px;
+    }
+}

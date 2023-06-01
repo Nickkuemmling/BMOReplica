@@ -1,0 +1,113 @@
+.bannerBaby {
+    background-image: url('.././assets/bannerBaby.webp');
+    width: 67%;
+    background-position: top left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 17.5rem;
+    box-shadow: $boxShadow;
+}
+
+.fasterEasierBillsContainer {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    position: relative;
+}
+
+.howToPayContainer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    padding: 15px 25px;
+    background-color: white;
+    box-shadow: $boxShadow;
+
+    p:nth-child(1) {
+        font-size: 1rem;
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+
+    p:nth-child(2) {
+        font-size: 0.9rem;
+        font-weight: 300;
+        line-height: 32px;
+        margin-top: 5px;
+
+        span {
+            font-size: 0.65rem;
+        }
+    }
+
+    .buttonAndMoney {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    img {
+        height: 130px;
+        width: 130px;
+    }
+
+    a {
+        text-align: center;
+        font-weight: 500;
+        font-size: 0.70rem;
+        color: white;
+        background-color: $backgroundBlue;
+        height: 55px;
+        width: 155px;
+        padding: 20px 10px 18px 10px;
+        border-radius: 45px;
+        margin-top: 5px;
+
+        &:hover {
+            background-color: $accentBlue;
+            text-decoration: underline;
+        }
+    }
+}
+
+.findBranchesContainer {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+
+    h2 {
+        margin: 45px 0 0 0;
+
+    }
+
+    p {
+        font-size: 1.2rem;
+        font-weight: 300;
+        width: 540px;
+
+        span {
+            font-weight: 600;
+        }
+    }
+
+    a {
+        text-align: center;
+        font-weight: 500;
+        font-size: 0.70rem;
+        color: white;
+        background-color: $backgroundBlue;
+        height: 55px;
+        width: 125px;
+        padding: 20px 10px 18px 10px;
+        border-radius: 45px;
+        margin-top: 10px;
+
+        &:hover {
+            background-color: $accentBlue;
+            text-decoration: underline;
+        }
+    }
+}

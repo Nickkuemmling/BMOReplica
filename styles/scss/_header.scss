@@ -1,0 +1,136 @@
+.siteNavContainer {
+    height: 45px;
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        background-color: $backgroundBlue;
+        height: 100%;
+
+
+        ul {
+            align-items: center;
+            display: flex;
+            height: 100%;
+
+
+
+            .iconLinkText {
+                margin-top: 5px;
+                font-family: $textFont;
+                font-size: .7rem;
+                font-weight: 500;
+            }
+
+            li {
+                display: flex;
+                text-align: center;
+                list-style: none;
+                font-size: .65rem;
+                font-weight: 500;
+                align-items: center;
+                height: 100%;
+                padding: 0px 15px;
+
+                &:hover {
+                    background-color: $accentBlue;
+                }
+
+
+
+                span {
+                    color: white;
+                }
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+.mainLinks {
+    align-items: center;
+
+    a {
+        font-family: $textFont;
+    }
+
+    li:nth-child(1) {
+        align-items: center;
+        background-color: white;
+        height: 100%;
+        padding: 0px 15px;
+
+        &:hover {
+            background-color: white;
+        }
+
+
+        a {
+            color: $backgroundBlue;
+        }
+    }
+}
+
+.iconLinks {
+    li:nth-child(5) {
+        align-items: center;
+        background-color: $accentBlue;
+        height: 100%;
+        padding: 0px 10px 0px 15px;
+
+    }
+}
+
+.lowersiteNavContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 95px;
+
+    img {
+        height: 45px;
+        width: 120px;
+        margin-left: 40px;
+    }
+
+    nav {
+        align-items: center;
+        display: flex;
+
+        ul {
+            height: 100%;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+
+            li {
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                align-items: center;
+                list-style: none;
+                width: 90px;
+                height: 95px;
+                border-left: 0.5px solid rgba(203, 203, 203, 0.247);
+
+                &:hover {
+                    background-color: rgba(232, 232, 232, 0.577);
+                }
+
+                a {
+                    font-family: $textFont;
+                    font-weight: 500;
+                    color: rgb(41, 41, 41);
+                    text-decoration: none;
+                    font-size: 0.7rem;
+                    width: 78px;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}

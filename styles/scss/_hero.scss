@@ -1,0 +1,172 @@
+.heroBanner {
+    background-image: url('.././assets/heroBanner3.png');
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 25rem;
+}
+
+.heroTextContainer {
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    //hero bold header
+    p:nth-child(1) {
+        width: 430px;
+        font-size: 1.7rem;
+        font-weight: 300;
+        margin: 0;
+
+        span {
+            font-size: 1.85rem;
+            font-weight: 600;
+        }
+
+        .blueify {
+            font-size: 1.8rem;
+        }
+    }
+
+    //Hero paragraph
+    p:nth-child(2) {
+        width: 353px;
+        margin-top: 20px;
+        font-size: 0.78rem;
+        line-height: 30px;
+        font-weight: 300;
+
+        .blueify {
+            font-size: 0.6rem;
+
+        }
+    }
+
+    a {
+        text-align: center;
+        font-size: 0.7rem;
+        font-weight: 500;
+        color: white;
+        background-color: $backgroundBlue;
+        width: 150px;
+        padding: 18px 20px;
+        border-radius: 45px;
+
+        &:hover {
+            background-color: $accentBlue;
+            text-decoration: underline;
+        }
+    }
+}
+
+.doTodayContainer {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: $boxShadow;
+    padding: 35px;
+    height: 234px;
+
+    h2 {
+        margin-top: 0;
+    }
+
+    .choicesContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-between;
+        width: 92%;
+
+
+        * {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 0.70rem;
+            font-weight: 400;
+            gap: 18px;
+
+        }
+
+        img {
+            height: 55px;
+            width: 65px;
+
+        }
+
+        p {
+            width: 84px;
+            text-align: center;
+            margin: 0;
+            line-height: 20px;
+        }
+    }
+}
+
+.specialOffersContainer {
+    background-color: white;
+    margin-top: 180px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: $boxShadow;
+    width: 50%;
+    height: 295px;
+
+    h3 {
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin: 0 0 5px 0;
+
+    }
+
+    p {
+        font-size: 0.90rem;
+        font-weight: 300;
+        line-height: 33px;
+        margin: 0;
+    }
+
+    a {
+        text-align: center;
+        font-weight: 500;
+        font-size: 0.70rem;
+        color: white;
+        background-color: $backgroundBlue;
+        height: 55px;
+        width: 185px;
+        padding: 20px 10px 18px 10px;
+        border-radius: 45px;
+        margin-top: 20px;
+
+        &:hover {
+            background-color: $accentBlue;
+            text-decoration: underline;
+        }
+    }
+
+    .buttonAndFlower {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    img {
+        height: 95px;
+        width: 95px;
+        margin-top: 33px;
+    }
+}
+
+.coupleBanner {
+    background-image: url('.././assets/bannerCouple.webp');
+    height: 20.1rem;
+    width: 100%;
+    background-position: right top 60px;
+    background-repeat: no-repeat;
+    background-size: 67%;
+    // box-shadow: $boxShadow;
+}

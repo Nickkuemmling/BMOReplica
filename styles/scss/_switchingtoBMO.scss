@@ -1,0 +1,196 @@
+.kidsBackground {
+    background-image: url('.././assets/bannerKids.webp');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: $boxShadow;
+    width: 100%;
+    height: 15.6rem;
+
+}
+
+.switchingContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    position: relative;
+
+    h2 {
+        margin: 30px;
+    }
+
+
+    .switchingInfoContainer {
+        position: absolute;
+        bottom: 0px;
+        display: flex;
+        justify-content: space-around;
+        width: 700px;
+        text-align: center;
+        background-color: white;
+        box-shadow: $boxShadow;
+    }
+
+
+    .switchingLeft {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px 25px;
+        width: 50%;
+
+        p:nth-child(1) {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin: 5px;
+        }
+
+        p:nth-child(2) {
+            font-size: 1.2rem;
+            font-weight: 300;
+            line-height: 32px;
+            margin: 5px;
+        }
+
+        p:nth-child(3) {
+            font-size: 0.8rem;
+            font-weight: 300;
+            line-height: 25px;
+            margin: 5px;
+        }
+
+        a:nth-child(4) {
+            text-align: center;
+            font-size: 0.7rem;
+            font-weight: 500;
+            color: white;
+            background-color: $backgroundBlue;
+            padding: 20px 35px;
+            margin: 5px;
+            border-radius: 45px;
+
+            &:hover {
+                background-color: $accentBlue;
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .switchingRight {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 50%;
+        padding: 30px 25px;
+        position: relative;
+
+        .borderLeft {
+            border-left: 1px solid rgb(210, 210, 210);
+            position: absolute;
+            top: 10%;
+            bottom: 10%;
+            right: 360px;
+        }
+
+
+        p:nth-child(2) {
+            font-size: 1.3rem;
+            font-weight: 300;
+            line-height: 32px;
+            margin: 0;
+        }
+
+        p:nth-child(3) {
+            font-size: 0.8rem;
+            font-weight: 300;
+            line-height: 25px;
+            margin: 0;
+        }
+
+        a:nth-child(4) {
+            text-align: center;
+            font-size: 0.7rem;
+            font-weight: 500;
+            color: $backgroundBlue;
+            background-color: white;
+            border: 1px solid $backgroundBlue;
+            padding: 20px 35px;
+            margin: 0px;
+            border-radius: 45px;
+
+            &:hover {
+                background-color: $accentBlue;
+                text-decoration: underline;
+                color: white;
+            }
+        }
+    }
+
+}
+
+.infiniteCardContainer {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 70px 0;
+
+    img {
+        padding: 16px;
+        margin-left: 40px;
+    }
+
+    .infiniteLeft {
+        width: 40%;
+
+        h3 {
+            color: $backgroundBlue;
+            font-size: 1.4rem;
+            font-weight: 500;
+            margin: 15px 0 0 0;
+        }
+
+        p {
+            font-size: 1.2rem;
+            font-weight: 300;
+            line-height: 32px;
+            margin: 13px 0;
+        }
+
+        li {
+            font-size: 0.8rem;
+            list-style: inside;
+            font-weight: 300;
+            line-height: 23px;
+        }
+
+        a:nth-child(4) {
+            display: inline-block;
+            text-align: center;
+            font-size: 0.7rem;
+            font-weight: 500;
+            color: white;
+            background-color: $backgroundBlue;
+            padding: 20px 35px;
+            border-radius: 45px;
+            margin-top: 10px;
+
+            &:hover {
+                background-color: $accentBlue;
+                text-decoration: underline;
+            }
+        }
+
+        a:nth-child(5) {
+            color: $backgroundBlue;
+            font-size: 0.7rem;
+            font-weight: 500;
+            margin-left: 10px;
+
+            &:hover {
+                color: $accentBlue;
+            }
+        }
+    }
+}
